@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>结算页面</title>
+		<link rel="stylesheet" href="../css/common/common.css" />
+		<link rel="stylesheet" href="../css/common/header.css" />
+		<link rel="stylesheet" href="../css/common/footer.css" />
+		<link rel="stylesheet" href="../css/pay.css" />
+	</head>
+	<body>
+		<!--头部-->
+		<div id="header_one">
+			<div class="content">
+				<div class="L">
+					<p>
+						<i><img src="../img/common/header1.png"/></i>
+						电话热线
+						<span>400-630-0077</span>
+					</p>
+				</div>
+				<p class="C">
+					<span class="one"><a href="regist.html">[登录]</a></span>
+					<span><a href="login.html">[注册]</a></span>
+				</p>
+				<div class="R">
+					<p class="one">
+						<span class="jia"><a>我的嘉</a></span>
+						<span><a>我的订单</a></span>
+	
+					<p class="two">
+						<span class="wu"><a>客服服务</a></span>
+						<span><a>电视会员激活</a></span>
+					</p>
+					<p class="three">
+						<i><img src="../img/common/ind-mobile.png"/></i>
+						<span><a>手机嘉丽购</a></span>
+					</p>
+				</div>
+			</div>
+		</div>	
+		<div class="jindutiao">
+			<a><img src="../img/common/ladygood.png"/></a>
+			<div class="one">
+				<span>
+					<i>|</i>购物车
+				</span>
+			</div>
+			<div class="two">
+				<ul>
+					<li class="tu">
+						<span><img src="../img/payCar/orddetailok.png"/></span>
+						<span><img src="../img/payCar/orddetailok.png"/></span>
+						<span><img src="../img/payCar/orddetailok.png"/></span>
+						<span><img src="../img/payCar/orddetailok.png"/></span>
+					</li>
+					<li class="gray"></li>
+					<li class="red"></li>
+					<li class="wenzi">
+						<span>我的购物车</span>
+						<span>提交订单</span>
+						<span>等待付款</span>
+						<span>支付成功</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="queren">
+			<div class="cheack">确认订单信息</div>
+			<div class="cheack-list">
+				<p>
+					<span>收货人信息</span>
+					<!--<span class="one">新增配送地址</span>-->
+				</p>
+				<ul>
+					<li>
+						<span id="name"></span>
+						<div><label id="diz"></label></div>
+						<h3><a>编辑</a></h3>
+					</li>
+				</ul>
+			<!--	<h1><a>更多配送地址 》</a></h1>-->
+				<div class="adrass" >
+					<div class="adrass1 " >
+						<div class="one">
+							<span>*所在地区：</span>
+							<select id="Cont"></select>
+							<select id="City" disabled="true"></select>
+							<select id="Sent" disabled="true"></select>
+						</div>
+						<div class="two">
+							<span>*详细地址：</span>
+							<textarea placeholder="建议您如实填写详细收货地址，例如街道名称，门牌号，楼层，房间号等信息"></textarea>
+						</div>
+						<div class="three"> 
+							<span>*收货人姓名：</span>
+							<input type="text" placeholder="姓名"/>
+						</div>
+						<div class="four">
+							<span>手机号码</span>
+							<select>
+								<option>大陆 +86</option>
+							</select>
+							<input type="text" placeholder="手机号码" />
+						</div>
+						<button id="baoc">保存</button>
+					</div>
+				</div>
+			</div>
+<div class="paystyle">支付方式</div>	
+			<ul>
+				<li>
+					<input type="radio" />
+					微信支付
+				</li>
+				<li>
+					<input type="radio" />
+					支付宝
+				</li>
+				<li>
+					<input type="radio" />
+				         在线支付
+				</li>
+				<li>
+					<input type="radio" />
+					货到付款
+				</li>
+			</ul>
+			<div class="paycarcon">配送清单<span><a>返回修改购物车</a></span></div>
+			
+		</div>
+		<!--提交信息-->
+		
+			<div class="contlist">
+				<ul>
+					<li style="width: 580px;">商品名称</li>
+					<li style="width: 232px;">商品价格</li>
+					<li style="width: 193px;">数量</li>
+					<li style="width: 183px;">运费</li>
+				</ul>
+			</div>
+			<div class="contlist1">
+				<!--<ol>
+					<li class="one" style="width: 150px;"><img src="../img/payCar/578c80684dd7e.jpg"/></li>
+					<li class="two" style="width: 378px;"><span>20L禧又多茶籽橄榄调和油加赠组</span><br />
+						<span>颜色/尺码 ： </span>禧又多茶籽橄榄调和油共同共同<br />
+						 货号：20119858
+					</li>
+					<li class="three" style="width: 232px;"><span>￥258.00</span></li>
+					<li class="four" style="width: 193px;"><span>1</span></li>
+					<li class="five" style="width: 200px;">免费</li>
+				</ol>-->
+			</div>
+			<div class="tijiao">
+				<li class="one">
+					<span>商品总计：<b>0</b></span> 元 + 运费：0.00 -                         优惠：0.00元
+				</li>
+				<li class="two">应付总额:<b class="one1"></b>元<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;收货地址：<b></b></span></li>
+				<li class="three">收货人：<b class="one2"></b></li>
+				<button>提交订单</button>
+			</div>
+		
+		<!--尾部-->
+		<div id="footer_footer"></div>
+	</body>
+	<script type="text/javascript" src="../js/common/jquery-1.12.3.js" ></script>
+	<script src="../libs/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="../js/common/common.js" ></script>
+	<script>
+		loadHtml("common/header.html","#header_header");
+		loadHtml("common/footer.html","#footer_footer");
+	</script>
+	<script type="text/javascript" src="../js/pay.js" ></script>
+	<script type="text/javascript" src="../js/common/headercookie.js" ></script>
+</html>

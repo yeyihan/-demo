@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册页面</title>
+		<link rel="stylesheet" href="../css/common/common.css" />
+		<link rel="stylesheet" href="../css/common/footer.css" />
+		<link rel="stylesheet" href="../css/regist.css" />
+	</head>
+	<body>
+	<div class="conttent">
+		<!--头部-->
+		<div class="head">
+			<div class="head1">
+				<a href="index.html"><img src="../img/common/ladygood.png"/></a>
+				<span class="one"><i>|</i>欢迎注册</span>
+				<span class="two">
+					<i>已有账号</i>
+					<a>直接登录</a>
+					
+				</span>
+			</div>
+			
+		</div>
+		<!--注册-->
+		<div class="f-regist">
+			<form>
+				*用户名：&nbsp; <input id="userName1" placeholder="输入用户名" class="one"/>
+				<div class="tip hid"></div>
+				*设置密码： <input id="pwd1" placeholder="创建密码"/>
+				<div class="tip hid"></div>
+				*确认密码： <input id="pwd2" placeholder="创建密码"/>
+				<div class="tip hid"></div>
+				<p>
+					<input type="checkbox" class="box" checked="checked" id="ck" />
+					<a target="_blank" href="/help/protocol.html">我已阅读并同意《嘉丽购物网服务条款》</a>
+				</p>
+				<a  id="button">登录</a>
+				<h6 id="h"></h6>
+			</form>
+			<div class="right">
+				<img src="../img/login/login-bg1.jpg" />
+			</div>
+		</div>
+		<!--尾部-->
+		<div id="footer_footer"></div>
+	</div>
+		
+	</body>
+	<script type="text/javascript" src="../js/common/jquery-1.12.3.js" ></script>
+	<script type="text/javascript" src="../js/common/common.js" ></script>
+	<script type="text/javascript" src="../libs/jquery.cookie.js" ></script>
+	<script>
+		loadHtml("common/footer.html","#footer_footer")
+	</script>
+	<script type="text/javascript" src="../js/regist.js" ></script>
+	<script type="text/javascript" src="../js/common/headercookie.js" ></script>
+</html>

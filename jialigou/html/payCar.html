@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="stylesheet" href="../css/common/common.css" />
+		<link rel="stylesheet" href="../css/common/footer.css" />
+		<link rel="stylesheet" href="../css/payCar.css" />
+	</head>
+	<body>
+		<!--头部-->
+		<div id="header_one">
+			<div class="content">
+				<div class="L">
+					<p>
+						<i><img src="../img/common/header1.png"/></i>
+						电话热线
+						<span>400-630-0077</span>
+					</p>
+				</div>
+				<p class="C">
+					<span class="one"><a href="regist.html">[登录]</a></span>
+					<span><a href="login.html">[注册]</a></span>
+				</p>
+				<div class="R">
+					<p class="one">
+						<span class="jia"><a>我的嘉</a></span>
+						<span><a>我的订单</a></span>
+	
+					<p class="two">
+						<span class="wu"><a>客服服务</a></span>
+						<span><a>电视会员激活</a></span>
+					</p>
+					<p class="three">
+						<i><img src="../img/common/ind-mobile.png"/></i>
+						<span><a>手机嘉丽购</a></span>
+					</p>
+				</div>
+			</div>
+		</div>	
+		<div class="jindutiao">
+			<a><img src="../img/common/ladygood.png"/></a>
+			<div class="one">
+				<span>
+					<i>|</i>购物车
+				</span>
+			</div>
+			<div class="two">
+				<ul>
+					<li class="tu">
+						<span><img src="../img/payCar/orddetailok.png"/></span>
+						<span><img src="../img/payCar/orddetailok.png"/></span>
+						<span><img src="../img/payCar/orddetailok.png"/></span>
+						<span><img src="../img/payCar/orddetailok.png"/></span>
+					</li>
+					<li class="gray"></li>
+					<li class="red"></li>
+					<li class="wenzi">
+						<span>我的购物车</span>
+						<span>提交订单</span>
+						<span>等待付款</span>
+						<span>支付成功</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--购物车-->
+		<div class="paycar">
+			<div class="all">
+				<span class="one">全部商品</span>
+				<span class="two"><a>返回首页</a></span>
+			</div>
+			<div class="kong"><p>购物车还是空的^_^</p>  </div>
+			<div class="listcar">
+				<div class="title">
+					<ul>
+						<li style="width: 252px;">全选</li>
+						<li style="width: 310px;">商品名</li>
+						<li style="width: 152px;">单价（元）</li>
+						<li style="width: 157px;">数量</li>
+						<li style="width: 152px;">嘉丽价</li>
+						<li style="width: 155px;">操作</li>
+					</ul>
+				</div>
+				<div class="listhold">
+					<!--<ul>
+						<li style="width: 252px;"class="one">
+							<div>
+								<input type="checkbox" checked="checked" />
+								<span class="gray red"></span>
+							</div>
+							<a><img src="../img/payCar/578c80684dd7e.jpg"/></a>
+						</li>
+						<li style="width: 310px; "class="two">
+							<span>
+								<i><a>20L禧又多茶籽橄榄调和油加赠组</a></i><br />  货号：20119858 	
+							</span><br />
+							<span>颜色/尺码 ：</span>
+							<div>禧又多茶籽橄榄调和油_共同共同</div>
+						</li>
+						<li class="three" style="width: 152px;">¥258.00</li>
+						<li class="four" style="width: 157px;">
+							<span>-</span>
+							<span >1</span>
+							<span>+</span>
+						</li>
+						<li class="five" style="width: 152px;"><span>¥258.00</span></li>
+						<li class="six" style="width: 155px;">
+							<div>
+								<span>加入收藏夹</span>
+								<span>删除</span>
+							</div>
+							
+						</li>
+					</ul>-->
+					<div class="go">
+						<li class="one" >
+							<span>
+								<input type="checkbox" checked="checked" />全选
+							</span>
+							<span>删除选中的商品</span>
+							<span>清空购物车</span>
+						</li>
+						<li class="two">
+						
+                            <span>总计：<b>0元</b></span>
+						</li>
+						<li class="three"></li>
+						<li class="four">
+							<button>去结算</button>
+						</li>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--尾部-->
+		<div id="footer_footer"></div>
+		
+	</body>
+	<script type="text/javascript" src="../js/common/jquery-1.12.3.js" ></script>
+	<script type="text/javascript" src="../js/common/common.js" ></script>
+	<script type="text/javascript" src="../libs/jquery.cookie.js" ></script>
+	<script>
+		loadHtml("common/footer.html","#footer_footer");
+	</script>
+	<script type="text/javascript" src="../js/payCar.js" ></script>
+	<script type="text/javascript" src="../js/common/headercookie.js" ></script>
+	
+	
+</html>

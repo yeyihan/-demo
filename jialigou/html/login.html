@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录页面</title>
+		<link rel="stylesheet" href="../css/common/common.css" />
+		<link rel="stylesheet" href="../css/common/footer.css" />
+		<link rel="stylesheet" href="../css/login.css" />
+	</head>
+	<body>
+		<!--头部-->
+		<div class="head">
+			<div class="head1">
+				<a href="index.html"><img src="../img/common/ladygood.png"/></a>
+				<span class="one"><i>|</i>用户登录</span>
+				<span class="two">
+					<i>|</i>
+					<a>嘉丽购电视会员激活入口</a>
+					<i>|</i>
+				</span>
+			</div>
+		</div>
+		<!--登录-->
+		<div class="f-login">
+			<div class="rleft">
+				<img src="../img/login/login-bg.jpg" />
+			</div>
+			<div class="fright">
+				<form class="amform">
+					<div class="f-pr f-input">
+						<label>
+							<h6 class="fr1">嘉丽购会员登录</h6>
+							<h6 class="fr2">
+								<a href="regist.html">免费注册</a>
+							</h6>
+						</label>
+						<input id="userName" placeholder="用户名/邮箱/电话号码" type="text" />
+						<p></p>
+						
+					</div>
+					<div class="fls">
+						<input id="pwd" placeholder="密码"/>
+						<p></p>
+						
+					</div>
+					<div class="fls1">
+						
+						<input id="yan" placeholder="验证码" />
+						<span ></span>
+						<p class="one"></p>
+					</div>
+					<div class="fls2" id="f">
+						<input class="ra" type="checkbox" />自动登录
+						<a id="boutton1">登录</a>
+					</div>
+					
+					
+				</form>
+				<div >
+					<span>亲，没有账号，你可以选择以下快捷登录方式！</span>
+				</div>
+				<div class="last">
+					<a class="one"><img src="../img/login/qq.png"/> QQ登录</a>
+					<a class="two"><img src="../img/login/other_way.jpg"/></a>
+				</div>
+			</div>
+		</div>
+		<!--尾部-->
+		<div id="footer_footer"></div>
+	</body>
+	<script type="text/javascript" src="../js/common/jquery-1.12.3.js" ></script>
+	<script type="text/javascript" src="../js/common/common.js" ></script>
+	<script type="text/javascript" src="../libs/jquery.cookie.js" ></script>
+	<script>
+		loadHtml("common/footer.html","#footer_footer")
+	</script>
+	<script type="text/javascript" src=" ../js/login.js" ></script>
+	<script type="text/javascript" src="../js/common/headercookie.js" ></script>
+</html>

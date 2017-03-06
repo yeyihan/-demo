@@ -1,0 +1,145 @@
+/*尾部*/
+#footer_footer{
+	clear: both;
+	margin: 0;
+    margin-top: 20px;
+    background: #fff;
+    font-family: "微软雅黑";
+    font-size: 14px;
+	padding: 0;
+	display: block;
+}
+#footer_footer .footer-one{
+	border-bottom: 2px solid #e91455;
+    height: 0;
+    display: block;
+    margin-bottom: 10px;
+}
+#footer_footer .footer-two{
+	height: 46px;
+    margin: 0 0 10px 0;
+    display: block;
+    padding: 0;
+    
+}
+#footer_footer .footer-two .one{
+	width: 1200px;
+    height: 46px;
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+    background: url(../img/common/foot_info.jpg) no-repeat scroll 0 0;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+#footer_footer .footer_three{
+	overflow: hidden;
+    padding: 10px 0;
+    display: block;
+}
+#footer_footer .footer_three .content{
+	width: 1200px;
+    margin: 0 auto;
+    display: block;
+    padding: 0;
+}
+#footer_footer .footer_three .content .one{
+	float: left;
+    width: 123px;
+    height: 123px;
+    background: url(../img/common/jlg_2d.jpg) no-repeat scroll 0 0;
+    text-indent: -9999px;
+    overflow: hidden;
+    margin-right: 20px;
+    margin-top: 13px;
+}
+#footer_footer .footer_three .content .two{
+	float: left;
+    margin-left: 30px;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    border-top: none;
+    padding-left: 20px;
+    /*margin: 0;
+    padding: 0;*/
+    display: block;
+}
+#footer_footer .footer_three .content .two .list{
+	float: left;
+	display: block;
+	width:100px;
+	margin: 0 10px;
+}
+#footer_footer .footer_three .content .two .list strong{
+    display: block;
+    height: 30px;
+    width: 120px;
+    line-height: 30px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+}
+#footer_footer .footer_three .content .two .list a{
+	display: block;
+    height: 30px;
+    width: 120px;
+    line-height: 30px;
+    font-size: 12px;
+    cursor: pointer;
+}
+#footer_footer .footer_three .content .two .list a:hover{
+	text-decoration: underline;
+	color:#e91456;
+}
+#footer_footer .footer_three .content .three{
+	float: left;
+    width: 260px;
+    height: 65px;
+    margin-top: 35px;
+    background: url(../img/common/call_rz.jpg) no-repeat scroll 0 0;
+    text-indent: -9999px;
+    overflow: hidden;
+    margin-left: 50px;
+}
+#footer_footer .footer-four{
+	height: 150px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #F8F8F8;
+    text-align: center;
+    display: block;
+}
+#footer_footer .footer-four p{
+	line-height: 35px;
+   /* text-align: center;*/
+    color: #999;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+#footer_footer .footer-four p a{
+	font-family: "微软雅黑";
+    font-size: 12px;
+    color: #444444;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+#footer_footer .footer-four p a:hover{
+	color:#e91456;
+	text-decoration: underline;
+}
+#footer_footer .footer-four .one{
+	height: 60px;
+	text-align: center;
+}
+#footer_footer .footer-four .one p{
+	line-height: 18px;
+	font-family: "微软雅黑";
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+#footer_footer .footer-four p.two img{
+	margin: 10px 0 0 10px;
+}
